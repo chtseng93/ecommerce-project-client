@@ -1,0 +1,25 @@
+.filterButton {
+    border: 0.1px solid rgba(102, 101, 101, 0.699);
+    border-radius: 0;
+    padding: 2px;
+    margin-right: 10px;
+    color:rgba(0,0,0,0.6);
+    font-size: 12px;
+    width:  100px;
+    height:30px;
+
+    background-color: rgb(255, 255, 255);
+    &:hover { 
+      background:rgba(23, 23, 23, 0.025);
+      border: 0.5px solid rgba(0,0,0,0.6);
+      font-weight: bold;
+      /* color: black; */
+    }
+    &:focus{
+    background:rgba(23, 23, 23, 0.025);
+    border: 0.5px solid rgba(0,0,0,0.6);
+    font-weight: bold;
+    color: black;
+    }
+    
+}

@@ -1,0 +1,19 @@
+
+.page-item .page-links {
+    border-radius: 0;
+    border: none;
+    background: none;
+    color:rgba(0,0,0,0.6);
+}
+
+.active .page-links{
+    border-bottom: 0.5px solid rgba(0,0,0,0.3);
+    border-radius: 0;
+}
+
+.page-item:first-child .page-links{
+    border-radius: 0;
+}
+.page-item:last-child .page-links{
+    border-radius: 0;
+}

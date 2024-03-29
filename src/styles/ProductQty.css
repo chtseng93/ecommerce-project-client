@@ -1,0 +1,11 @@
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.custom-qty{
+    border: 1px solid rgba(102, 101, 101, 0.699);
+    width: 100px;
+}

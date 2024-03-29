@@ -1,0 +1,29 @@
+.modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #00000055;
+	z-index: 10;
+}
+
+.modalContent {
+    width: 40%;
+    height:40%;
+    margin-top: 50px;
+	background-color: #ffffff;
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+    position: relative;
+    top: 50%;  
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.order-confirm{
+    color:#0DC8F4;
+}
+

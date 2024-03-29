@@ -1,0 +1,36 @@
+.login-page-Button {
+    border: 0.5px solid rgba(0,0,0,0.6);
+    border-radius: 0;
+    padding: 10px;
+    color:rgba(0,0,0,0.6);
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: bolder;
+    width: 100%;
+    &:hover { 
+      background:rgba(23, 23, 23, 0.025);
+      border: 1.5px solid rgba(0,0,0,0.6);
+    }
+    
+  }
+  .title{
+    background:none;
+    /* color: rgba(13, 13, 13, 0.628); */
+    /* &:hover{
+
+    }  */
+    &:hover { 
+        border: 0.5px solid rgba(0, 0, 0, 0.374);
+        font-weight: bold;
+        /* color: black; */
+    }
+   
+  }
+  .title-focus{
+    /* background:rgba(23, 23, 23, 0.308); */
+      /* background-color: #0DC8F4;; */
+    background: none;
+    text-decoration-line: underline;
+    font-weight: bold;
+    color: black;
+  }
